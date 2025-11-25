@@ -359,6 +359,6 @@ app.controller('MainController', function($scope, $http, $window) {
     });
 
     // log initialization success message
-    console.log('SNBD application initialized successfully!');
+    console.log('SMBD application initialized successfully!');
 
 });
