@@ -139,19 +139,37 @@ Follow these steps to set up SMDB locally:
 smdb/
 ├── backend/
 │   ├── api/
-│   │   ├── smdb.php           # API to fetch all movies/series
-│   │   ├── topactors.php      # API to fetch top actors
-│   ├── connect.php            # Database connection configuration
-├── index.html                 # Main application HTML
-├── preloader.html            # Preloader HTML with seat animation
-├── app.js                    # AngularJS module initialization
-├── MainController.js         # Main AngularJS controller for app logic
-├── PreloaderController.js    # JavaScript for preloader animation
-├── smdb.sql                  # SQL script for database setup
-├── README.md                 # This file
+│   │   ├── connect.php          # Database connection configuration
+│   │   ├── smdb.php             # API to fetch all movies/series
+│   │   ├── topactors.php        # API to fetch top actors
+│   ├── database/
+│   │   ├── smdb.sql             # SQL script for database setup
+├── frontend/
+│   ├── assets/
+│   │   ├── icon/                # Directory for icon files
+│   │   ├── img/                 # Directory for image files
+│   │   ├── screenshots/         # Directory for screenshot files
+│   ├── css/
+│   │   ├── animations.css       # CSS for animations
+│   │   ├── base.css             # Base CSS styles
+│   │   ├── components.css       # Styles for components
+│   │   ├── cursor.css           # Styles for custom cursor
+│   │   ├── interactions.css     # Styles for interactive elements
+│   │   ├── layout.css           # Layout-related CSS
+│   │   ├── output.css           # Compiled output CSS
+│   │   ├── preloader.css        # Styles for preloader
+│   │   ├── scroll.css           # Styles for scroll behavior
+│   │   ├── sections.css         # Styles for sections
+│   │   ├── typography.css       # Typography styles
+│   ├── js/
+│   │   ├── node_modules/        # Node.js modules (if used)
+│   │   ├── app.js               # AngularJS module initialization
+│   │   ├── MainController.js    # Main AngularJS controller for app logic
+│   │   ├── PreloaderController.js # JavaScript for preloader animation
+│   ├── index.html               # Main application HTML
+│   ├── preloader.html           # Preloader HTML with seat animation
+├── README.md                    # This file
 ```
-
----
 
 ## Technologies Used
 
